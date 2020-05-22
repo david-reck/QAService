@@ -10285,11 +10285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.API\\QAService.API.csproj",
+      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.API\\QAService.API.csproj",
       "projectName": "QAService.API",
-      "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.API\\QAService.API.csproj",
+      "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.API\\QAService.API.csproj",
       "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.API\\obj\\",
+      "outputPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10310,23 +10310,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.Domain\\QAService.Domain.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.Domain\\QAService.Domain.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj"
+            "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\SimpleQAService\\SimpleQAService\\QAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj"
             }
           }
         }
