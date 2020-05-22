@@ -45,12 +45,20 @@ namespace QAService.API
         public void ConfigureServices(IServiceCollection services)
         {
             services
-               .AddCustomMvc()
+                .AddCors(options =>
+                {
+                    options.AddDefaultPolicy(builder =>
+                        builder.SetIsOriginAllowed(_ => true)
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials());
+                })
                .AddCustomDbContext(Configuration)
                .AddCustomIntegrations(Configuration)
                .AddCustomConfiguration(Configuration)
                .AddEventBus(Configuration)
                .AddControllers();
+            
      
         }
 
@@ -71,7 +79,7 @@ namespace QAService.API
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors();
             app.UseRouting();
 
             app.UseAuthorization();
@@ -111,6 +119,7 @@ namespace QAService.API
                 options.AddPolicy("CorsPolicy",
                     builder => builder
                     .SetIsOriginAllowed((host) => true)
+                    .AllowAnyOrigin()
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials());
