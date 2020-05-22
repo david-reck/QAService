@@ -1,0 +1,7 @@
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\bin\Release\netstandard2.1\iPas.Infrastructure.EventBus.deps.json
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\bin\Release\netstandard2.1\iPas.Infrastructure.EventBus.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\bin\Release\netstandard2.1\iPas.Infrastructure.EventBus.pdb
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\obj\Release\netstandard2.1\iPas.Infrastructure.EventBus.AssemblyInfoInputs.cache
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\obj\Release\netstandard2.1\iPas.Infrastructure.EventBus.AssemblyInfo.cs
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\obj\Release\netstandard2.1\iPas.Infrastructure.EventBus.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBus\obj\Release\netstandard2.1\iPas.Infrastructure.EventBus.pdb

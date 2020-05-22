@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  qaservice.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

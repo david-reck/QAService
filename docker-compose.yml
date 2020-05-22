@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  qaservice.api:
+    image: ${DOCKER_REGISTRY-}qaserviceapi
+    hostname: qaservice.api
+    ports: 
+        - 30003:30003
+        - 30023:30023
+    networks:
+        - ipasnetwork
+    build:
+      context: .
+      dockerfile: QAService.API/Dockerfile
+
+networks:
+    ipasnetwork:
+        external:
+            name: ipasnetwork

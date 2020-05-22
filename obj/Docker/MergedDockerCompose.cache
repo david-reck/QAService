@@ -1,0 +1,22 @@
+networks:
+  ipasnetwork:
+    external:
+      name: ipasnetwork
+services:
+  qaservice.api:
+    build:
+      context: C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService
+      dockerfile: QAService.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    hostname: qaservice.api
+    image: qaserviceapi
+    networks:
+      ipasnetwork: {}
+    ports:
+    - target: 80
+    - published: 30003
+      target: 30003
+    - published: 30023
+      target: 30023
+version: '3.4'

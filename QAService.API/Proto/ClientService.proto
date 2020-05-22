@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "ClientService.API.Grpc";
+
+package ClientApi;
+
+service ClientApiRetrieval {
+	rpc FindModulesByClientIdAndFacilityCode (ModulesRequest) returns (ModulesResponse);
+	rpc FindModulesByClientIdAndFacilityId (ModuleFacilityIdRequest) returns (ModulesResponse);
+}
+	message ModulesRequest {
+		int64 clientId = 1;
+		string facilityCode = 2;
+	}
+
+		message ModuleFacilityIdRequest {
+		int64 clientId = 1;
+		int64 facilityId = 2;
+	}
+
+	message ModulesResponse {
+		int64 clientId = 1;
+        string ClientName  = 2;
+        int64 FacilityId = 3;
+        string FacilityCode = 4;
+        string FacilityName = 5;
+		repeated Modules data = 6;
+	}
+
+	message Modules {
+		int64 facilityId = 1;
+        string ModuleCode = 2;
+        string ModuleDescription = 3;
+	}

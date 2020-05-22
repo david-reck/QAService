@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: qaserviceapi-deployment
+spec:
+  selector:
+    matchLabels:
+      app: qaserviceapi-pod
+  template:
+    metadata:
+      labels:
+        app: qaserviceapi-pod
+    spec:
+      containers:
+      - name: qaserviceapi-container
+        image: ipascontreg.azurecr.io/qaserviceapi:v1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 30003
+        - containerPort: 30023

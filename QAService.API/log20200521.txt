@@ -1,0 +1,303 @@
+2020-05-21 01:42:20.033 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 01:42:24.002 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 01:42:24.316 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 01:42:24.317 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 01:42:24.366 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 01:43:09.908 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 01:43:13.611 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 01:43:13.973 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 01:43:13.975 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 01:43:14.003 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 03:42:12.952 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 03:42:18.385 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 03:42:19.100 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 03:42:19.102 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 03:42:19.125 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 03:51:56.143 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 03:52:00.455 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 03:52:00.892 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 03:52:00.894 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 03:52:00.918 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:09:37.671 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:09:41.490 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:09:41.958 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:09:41.959 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:09:42.001 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:12:39.153 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:12:42.748 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:12:43.001 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:12:43.003 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:12:43.049 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:26:41.140 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:26:45.888 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:26:46.226 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:26:46.227 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:26:46.259 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:29:08.847 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:29:12.829 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:29:13.376 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:29:13.377 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:29:13.403 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:30:36.781 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:30:40.865 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:30:41.155 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:30:41.156 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:30:41.182 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:37:48.544 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:37:52.616 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:37:53.267 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:37:53.269 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:37:53.298 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 04:38:40.013 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 04:38:44.155 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 04:38:44.604 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 04:38:44.605 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 04:38:44.637 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 14:43:06.017 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 14:43:09.261 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 14:43:09.722 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 14:43:09.726 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 14:43:09.771 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 14:47:43.505 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 14:47:47.408 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 14:47:47.707 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 14:47:47.708 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 14:47:47.736 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 14:50:48.579 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 14:50:52.009 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 14:50:52.381 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 14:50:52.382 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 14:50:52.411 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 15:59:19.147 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 15:59:22.597 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 15:59:22.882 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 15:59:22.883 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 15:59:22.917 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:07:07.455 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:07:11.976 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:07:12.237 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:07:12.238 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:07:12.268 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:10:10.937 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:10:14.452 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:10:14.800 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:10:14.801 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:10:14.825 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:11:48.178 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:11:51.240 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:11:51.823 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:11:51.826 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:11:51.855 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:12:38.636 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:12:42.197 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:12:42.733 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:12:42.735 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:12:42.758 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:13:38.422 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:13:41.843 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:13:42.206 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:13:42.208 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:13:42.249 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:17:26.974 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:27.192 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:27.341 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:27.524 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:27.702 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:27.974 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:28.167 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:17:28.398 +00:00 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'b8b85362-e7c4-4bbb-a525-e387629c2338'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-21 16:20:20.024 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:20:23.748 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:20:24.139 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:20:24.141 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:20:24.168 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:21:46.113 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:21:50.587 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:21:50.877 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:21:50.878 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:21:50.904 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:23:35.388 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:23:39.753 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:23:40.380 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:23:40.382 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:23:40.407 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:30:37.199 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:30:41.543 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:30:42.069 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:30:42.072 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:30:42.115 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:33:25.529 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:33:30.257 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:33:30.676 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:33:30.677 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:33:30.701 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:34:33.098 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:34:37.252 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:34:37.619 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:34:37.621 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:34:37.653 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:36:21.780 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 16:36:25.979 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 16:36:26.257 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 16:36:26.259 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 16:36:26.295 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 16:49:11.968 +00:00 [INF] ----- Handling integration event: "2d0d3587-9f89-4e81-8446-e8ba7bce9f24" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":9,"PatientVisitId":12,"DocumentId":"c9ce56e4-c0e7-4b08-9f82-e5477bda8cc0","ClientName":"Texas Baptist","Id":"2d0d3587-9f89-4e81-8446-e8ba7bce9f24","CreationDate":"2020-05-21T16:50:52.3528127Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-21 16:49:12.477 +00:00 [ERR] ERROR handling message: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 80
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 41
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 186
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-21 16:55:16.006 +00:00 [INF] ----- Handling integration event: "92d95f7f-9be4-40aa-a2ca-ac592ef05b79" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":9,"PatientVisitId":12,"DocumentId":"b1d0506a-95b7-49bc-837f-2ef5822a4565","ClientName":"Texas Baptist","Id":"92d95f7f-9be4-40aa-a2ca-ac592ef05b79","CreationDate":"2020-05-21T16:56:56.9849298Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-21 16:55:16.438 +00:00 [ERR] ERROR handling message: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 80
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 41
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 186
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-21 16:59:32.337 +00:00 [INF] ----- Handling integration event: "040888e3-40df-437f-badf-7190dcc89473" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"045f1b62-7408-47e6-9615-344826dfa6fc","ClientName":"Texas Baptist","Id":"040888e3-40df-437f-badf-7190dcc89473","CreationDate":"2020-05-21T17:01:13.4037936Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-21 16:59:32.732 +00:00 [ERR] ERROR handling message: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QAService","ClientId":"MessageReceiver3registration/Subscriptions/QAService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Internal, Detail="Error starting gRPC call: Connection refused")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, Metadata headers, Nullable`1 deadline, CancellationToken cancellationToken) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\obj\Debug\netcoreapp3.1\ClientServiceGrpc.cs:line 80
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 41
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 186
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-21 20:01:16.084 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 20:01:21.884 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 20:01:22.285 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 20:01:22.286 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 20:01:22.323 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 20:09:15.604 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 20:09:21.895 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 20:09:22.462 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 20:09:22.464 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 20:09:22.525 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 20:16:17.274 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 20:16:21.805 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 20:16:22.531 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 20:16:22.533 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 20:16:22.563 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 20:16:45.025 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 20:16:49.882 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 20:16:50.341 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 20:16:50.343 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 20:16:50.371 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-21 20:17:48.721 +00:00 [INF] Starting web host (QAService.API)...
+2020-05-21 20:17:54.359 +00:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-21 20:17:54.845 +00:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-21 20:17:54.847 +00:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-21 20:17:54.873 +00:00 [WRN] Overriding address(es) 'http://+:80'. Binding to endpoints defined in UseKestrel() instead.

@@ -1,0 +1,2 @@
+obj\Release\netcoreapp3.1/RegistrationService.cs \
+obj\Release\netcoreapp3.1/RegistrationServiceGrpc.cs: Proto/RegistrationService.proto
