@@ -25,15 +25,23 @@ namespace RegistrationService.API.Grpc {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch9Qcm90by9SZWdpc3RyYXRpb25TZXJ2aWNlLnByb3RvEg9SZWdpc3RyYXRp",
-            "b25BcGkiMQoRQWR0TWVzc2FnZVJlcXVlc3QSCgoCaWQYASABKAkSEAoIY2xp",
-            "ZW50SWQYAiABKAMiKAoSQWR0TWVzc2FnZVJlc3BvbnNlEhIKCkFkdE1lc3Nh",
-            "Z2UYASABKAkyeQoYUmVnaXN0cmF0aW9uQXBpUmV0cmlldmFsEl0KEkZpbmRB",
-            "ZHRNZXNzYWdlQnlJZBIiLlJlZ2lzdHJhdGlvbkFwaS5BZHRNZXNzYWdlUmVx",
-            "dWVzdBojLlJlZ2lzdHJhdGlvbkFwaS5BZHRNZXNzYWdlUmVzcG9uc2VCH6oC",
-            "HFJlZ2lzdHJhdGlvblNlcnZpY2UuQVBJLkdycGNiBnByb3RvMw=="));
+            "b25BcGkiOgoaU2VhcmNoQVBJQWR0TWVzc2FnZVJlcXVlc3QSCgoCaWQYASAB",
+            "KAkSEAoIY2xpZW50SWQYAiABKAMiMQobU2VhcmNoQVBJQWR0TWVzc2FnZVJl",
+            "c3BvbnNlEhIKCkFkdE1lc3NhZ2UYASABKAkiMQoRQWR0TWVzc2FnZVJlcXVl",
+            "c3QSCgoCaWQYASABKAkSEAoIY2xpZW50SWQYAiABKAMiKAoSQWR0TWVzc2Fn",
+            "ZVJlc3BvbnNlEhIKCkFkdE1lc3NhZ2UYASABKAky8wEKGFJlZ2lzdHJhdGlv",
+            "bkFwaVJldHJpZXZhbBJdChJGaW5kQWR0TWVzc2FnZUJ5SWQSIi5SZWdpc3Ry",
+            "YXRpb25BcGkuQWR0TWVzc2FnZVJlcXVlc3QaIy5SZWdpc3RyYXRpb25BcGku",
+            "QWR0TWVzc2FnZVJlc3BvbnNlEngKG1NlYXJjaEFQSUZpbmRBZHRNZXNzYWdl",
+            "QnlJZBIrLlJlZ2lzdHJhdGlvbkFwaS5TZWFyY2hBUElBZHRNZXNzYWdlUmVx",
+            "dWVzdBosLlJlZ2lzdHJhdGlvbkFwaS5TZWFyY2hBUElBZHRNZXNzYWdlUmVz",
+            "cG9uc2VCH6oCHFJlZ2lzdHJhdGlvblNlcnZpY2UuQVBJLkdycGNiBnByb3Rv",
+            "Mw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest), global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest.Parser, new[]{ "Id", "ClientId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse), global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse.Parser, new[]{ "AdtMessage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RegistrationService.API.Grpc.AdtMessageRequest), global::RegistrationService.API.Grpc.AdtMessageRequest.Parser, new[]{ "Id", "ClientId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::RegistrationService.API.Grpc.AdtMessageResponse), global::RegistrationService.API.Grpc.AdtMessageResponse.Parser, new[]{ "AdtMessage" }, null, null, null, null)
           }));
@@ -42,6 +50,292 @@ namespace RegistrationService.API.Grpc {
 
   }
   #region Messages
+  public sealed partial class SearchAPIAdtMessageRequest : pb::IMessage<SearchAPIAdtMessageRequest> {
+    private static readonly pb::MessageParser<SearchAPIAdtMessageRequest> _parser = new pb::MessageParser<SearchAPIAdtMessageRequest>(() => new SearchAPIAdtMessageRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SearchAPIAdtMessageRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageRequest(SearchAPIAdtMessageRequest other) : this() {
+      id_ = other.id_;
+      clientId_ = other.clientId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageRequest Clone() {
+      return new SearchAPIAdtMessageRequest(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private string id_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Id {
+      get { return id_; }
+      set {
+        id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "clientId" field.</summary>
+    public const int ClientIdFieldNumber = 2;
+    private long clientId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long ClientId {
+      get { return clientId_; }
+      set {
+        clientId_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SearchAPIAdtMessageRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SearchAPIAdtMessageRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (ClientId != other.ClientId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id.Length != 0) hash ^= Id.GetHashCode();
+      if (ClientId != 0L) hash ^= ClientId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Id.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Id);
+      }
+      if (ClientId != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(ClientId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+      }
+      if (ClientId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClientId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SearchAPIAdtMessageRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id.Length != 0) {
+        Id = other.Id;
+      }
+      if (other.ClientId != 0L) {
+        ClientId = other.ClientId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            Id = input.ReadString();
+            break;
+          }
+          case 16: {
+            ClientId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SearchAPIAdtMessageResponse : pb::IMessage<SearchAPIAdtMessageResponse> {
+    private static readonly pb::MessageParser<SearchAPIAdtMessageResponse> _parser = new pb::MessageParser<SearchAPIAdtMessageResponse>(() => new SearchAPIAdtMessageResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SearchAPIAdtMessageResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageResponse(SearchAPIAdtMessageResponse other) : this() {
+      adtMessage_ = other.adtMessage_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SearchAPIAdtMessageResponse Clone() {
+      return new SearchAPIAdtMessageResponse(this);
+    }
+
+    /// <summary>Field number for the "AdtMessage" field.</summary>
+    public const int AdtMessageFieldNumber = 1;
+    private string adtMessage_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string AdtMessage {
+      get { return adtMessage_; }
+      set {
+        adtMessage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SearchAPIAdtMessageResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SearchAPIAdtMessageResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (AdtMessage != other.AdtMessage) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (AdtMessage.Length != 0) hash ^= AdtMessage.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (AdtMessage.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(AdtMessage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (AdtMessage.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(AdtMessage);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SearchAPIAdtMessageResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.AdtMessage.Length != 0) {
+        AdtMessage = other.AdtMessage;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            AdtMessage = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class AdtMessageRequest : pb::IMessage<AdtMessageRequest> {
     private static readonly pb::MessageParser<AdtMessageRequest> _parser = new pb::MessageParser<AdtMessageRequest>(() => new AdtMessageRequest());
     private pb::UnknownFieldSet _unknownFields;
@@ -50,7 +344,7 @@ namespace RegistrationService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[0]; }
+      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -207,7 +501,7 @@ namespace RegistrationService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::RegistrationService.API.Grpc.RegistrationServiceReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

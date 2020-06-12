@@ -14,6 +14,8 @@ namespace RegistrationService.API.Grpc {
 
     static readonly grpc::Marshaller<global::RegistrationService.API.Grpc.AdtMessageRequest> __Marshaller_RegistrationApi_AdtMessageRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::RegistrationService.API.Grpc.AdtMessageRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::RegistrationService.API.Grpc.AdtMessageResponse> __Marshaller_RegistrationApi_AdtMessageResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::RegistrationService.API.Grpc.AdtMessageResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest> __Marshaller_RegistrationApi_SearchAPIAdtMessageRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse> __Marshaller_RegistrationApi_SearchAPIAdtMessageResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse.Parser.ParseFrom);
 
     static readonly grpc::Method<global::RegistrationService.API.Grpc.AdtMessageRequest, global::RegistrationService.API.Grpc.AdtMessageResponse> __Method_FindAdtMessageById = new grpc::Method<global::RegistrationService.API.Grpc.AdtMessageRequest, global::RegistrationService.API.Grpc.AdtMessageResponse>(
         grpc::MethodType.Unary,
@@ -21,6 +23,13 @@ namespace RegistrationService.API.Grpc {
         "FindAdtMessageById",
         __Marshaller_RegistrationApi_AdtMessageRequest,
         __Marshaller_RegistrationApi_AdtMessageResponse);
+
+    static readonly grpc::Method<global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest, global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse> __Method_SearchAPIFindAdtMessageById = new grpc::Method<global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest, global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "SearchAPIFindAdtMessageById",
+        __Marshaller_RegistrationApi_SearchAPIAdtMessageRequest,
+        __Marshaller_RegistrationApi_SearchAPIAdtMessageResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -66,6 +75,22 @@ namespace RegistrationService.API.Grpc {
       public virtual grpc::AsyncUnaryCall<global::RegistrationService.API.Grpc.AdtMessageResponse> FindAdtMessageByIdAsync(global::RegistrationService.API.Grpc.AdtMessageRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_FindAdtMessageById, null, options, request);
+      }
+      public virtual global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse SearchAPIFindAdtMessageById(global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SearchAPIFindAdtMessageById(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse SearchAPIFindAdtMessageById(global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_SearchAPIFindAdtMessageById, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse> SearchAPIFindAdtMessageByIdAsync(global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return SearchAPIFindAdtMessageByIdAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::RegistrationService.API.Grpc.SearchAPIAdtMessageResponse> SearchAPIFindAdtMessageByIdAsync(global::RegistrationService.API.Grpc.SearchAPIAdtMessageRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_SearchAPIFindAdtMessageById, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override RegistrationApiRetrievalClient NewInstance(ClientBaseConfiguration configuration)

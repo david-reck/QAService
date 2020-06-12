@@ -59,10 +59,10 @@ namespace QAService.IntegrationEvents.EventHandling
                                                System.Globalization.DateTimeStyles.None,
                                                out date);
 
-                        var command = new RunRegistrationRulesCommand(adt.content.PID[0].patientName[0].firstName,
+                        var command = new RunRegistrationRulesCommand(adt.content.PID[0].patientName[0].firstName, "",
                            adt.content.PID[0].patientName[0].lastName,
                            date,
-                           adt.content.PID[0].sex);
+                           adt.content.PID[0].sex,adt.PatientId, adt.PatientVisitId, adt.PatientTransactionId, adt.ClientId);
 
                         _logger.LogInformation("-----Sending command: RunRegistrationRulesCommand");
 

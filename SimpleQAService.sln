@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAService.API", "QAService.API\QAService.API.csproj", "{2E5BCDCF-3E7C-4CB2-86E4-E3C758399D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAService.API", "QAService.API\QAService.API.csproj", "{2E5BCDCF-3E7C-4CB2-86E4-E3C758399D06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{283E10C9-B30F-42DD-9F52-159CC732F9E4}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QAService.RuleEngine", "QAService.RuleEngine\QAService.RuleEngine.csproj", "{E60208DC-6A4B-466C-BD04-353D1E356F6C}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CB2A4502-BC6E-4292-ADB4-46A2C024D6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPas.Infrastructure.EventBusRabbitMQ", "..\iPas.Infrastructure.EventBusRabbitMQ\iPas.Infrastructure.EventBusRabbitMQ.csproj", "{0EFEE47A-661C-4041-9C56-31EA29AEEC4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{CB2A4502-BC6E-4292-ADB4-46A2C024D6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB2A4502-BC6E-4292-ADB4-46A2C024D6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB2A4502-BC6E-4292-ADB4-46A2C024D6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFEE47A-661C-4041-9C56-31EA29AEEC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFEE47A-661C-4041-9C56-31EA29AEEC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFEE47A-661C-4041-9C56-31EA29AEEC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFEE47A-661C-4041-9C56-31EA29AEEC4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{FEE093FE-6332-4FA5-9187-08B1443DF7A5} = {283E10C9-B30F-42DD-9F52-159CC732F9E4}
 		{7176F81D-3D08-4D21-8E2E-C0149876CB21} = {283E10C9-B30F-42DD-9F52-159CC732F9E4}
 		{AC8B6EAA-8C55-4954-94BE-A836D14FF953} = {283E10C9-B30F-42DD-9F52-159CC732F9E4}
+		{0EFEE47A-661C-4041-9C56-31EA29AEEC4E} = {283E10C9-B30F-42DD-9F52-159CC732F9E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7E864D8-6E25-4118-B5B1-7DC86F1D04FF}

@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: qaserviceapi-container
-        image: ipascontreg.azurecr.io/qaserviceapi:v1
+        image: ipascontreg.azurecr.io/qaserviceapi:v6
         resources:
           limits:
             memory: "128Mi"

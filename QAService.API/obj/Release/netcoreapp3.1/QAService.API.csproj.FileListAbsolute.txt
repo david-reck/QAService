@@ -346,3 +346,8 @@ C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\QAService.API.csproj.CopyComplete
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\QAService.API.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\QAService.API.pdb
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\bin\Release\netcoreapp3.1\iPas.Infrastructure.EventBusRabbitMQ.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\bin\Release\netcoreapp3.1\Polly.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\bin\Release\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\bin\Release\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\bin\Release\netcoreapp3.1\iPas.Infrastructure.EventBusRabbitMQ.pdb

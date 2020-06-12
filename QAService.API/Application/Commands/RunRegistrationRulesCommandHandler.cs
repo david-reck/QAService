@@ -41,8 +41,11 @@ namespace QAService.Application.Commands
 
             var ruleExecution = new RuleExecution();
             ruleExecution.AccountId = 1;
-            ruleExecution.ClientId = 1;
+            ruleExecution.ClientId = message.ClientId;
             ruleExecution.Event = "RegistrationReceived";
+            ruleExecution.PatientId = message.PatientId;
+            ruleExecution.PatientVisitId = message.PatientVisitId;
+            ruleExecution.PatientTransactionId = message.PatientTransactionId;
 
             foreach (var item in results.RuleErrors)
             {

@@ -13,7 +13,7 @@ namespace QAService.Domain.AggregatesModel.RuleExecutionAggregate
 
         public Int64 RuleExecutionId { get; set; }
 
-        public int ClientId { get; set; }
+        public Int64 ClientId { get; set; }
 
         public Int64 AccountId { get; set; }
 

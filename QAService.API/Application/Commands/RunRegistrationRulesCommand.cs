@@ -25,6 +25,19 @@ namespace QAService.Application.Commands
         public string Gender { get; set; }
 
         [DataMember]
+        public Int64 ClientId { get; set; }
+
+        [DataMember]
+        public Int64 PatientId { get; set; }
+
+        [DataMember]
+        public Int64 PatientVisitId { get; set; }
+
+        [DataMember]
+        public Int64 PatientTransactionId { get; set; }
+
+
+        [DataMember]
         public List<PatientAddress> PatientAddresses { get; set; }
 
         [DataMember]
@@ -43,13 +56,18 @@ namespace QAService.Application.Commands
             BirthDate = birthDate;
             Gender = gender;
         }
-        public RunRegistrationRulesCommand(string firstName, string middleName, string lastName, DateTime birthDate, string gender)
+        public RunRegistrationRulesCommand(string firstName, string middleName, string lastName, DateTime birthDate, string gender, Int64 patientId,
+            Int64 patientVisitId, Int64 patientTransactionId, Int64 clientId)
         {
             FirstName = firstName;
             LastName = lastName;
             MiddleName = middleName;
             BirthDate = birthDate;
             Gender = gender;
+            PatientId = patientId;
+            PatientVisitId = patientVisitId;
+            ClientId = clientId;
+            PatientTransactionId = patientTransactionId;
         }
 
     }

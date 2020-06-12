@@ -104,10 +104,8 @@ C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Releas
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Grpc.Net.Common.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Bcl.HashCode.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Extensions.Logging.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Azure.Amqp.dll
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Microsoft.Azure.Services.AppAuthentication.dll
@@ -126,3 +124,8 @@ C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Releas
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\QAService.RuleEngine.pdb
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\obj\Release\docker-compose.dcprojAssemblyReference.cache
 C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\obj\Release\docker-compose.dcproj.CopyComplete
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\iPas.Infrastructure.EventBusRabbitMQ.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\RabbitMQ.Client.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\Polly.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\System.Threading.Channels.dll
+C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\bin\Release\iPas.Infrastructure.EventBusRabbitMQ.pdb

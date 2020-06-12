@@ -22,3 +22,250 @@ Grpc.Core.RpcException: Status(StatusCode=Internal, Detail="Error starting gRPC 
    at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 186
    at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
    at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 09:18:00.699 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:18:24.281 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:18:24.785 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:18:24.787 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:18:24.954 -05:00 [FTL] Application startup exception
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.Cors.Infrastructure.CorsService.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Options.IOptions`1[Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions], Microsoft.Extensions.Logging.ILoggerFactory)' on type 'CorsService'.
+ ---> System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at QAService.API.Startup.<>c.<ConfigureServices>b__4_0(CorsOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Startup.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at lambda_method(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2020-05-22 09:18:25.230 -05:00 [FTL] Program terminated unexpectedly (QAService.API)!
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Microsoft.AspNetCore.Cors.Infrastructure.CorsService.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Options.IOptions`1[Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions], Microsoft.Extensions.Logging.ILoggerFactory)' on type 'CorsService'.
+ ---> System.InvalidOperationException: The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the CORS policy by listing individual origins if credentials needs to be supported.
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicyBuilder.Build()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions.AddPolicy(String name, Action`1 configurePolicy)
+   at QAService.API.Startup.<>c.<ConfigureServices>b__4_0(CorsOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Startup.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsService..ctor(IOptions`1 options, ILoggerFactory loggerFactory)
+   at lambda_method(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.ConstructorParameterBinding.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.InstanceLookup.CreateInstance(IEnumerable`1 parameters)
+   at Autofac.Core.Resolving.InstanceLookup.Execute()
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ResolveComponent(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass4_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at QAService.API.Program.Main(String[] args) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Program.cs:line 35
+2020-05-22 09:19:47.596 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:19:51.893 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:19:52.353 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:19:52.356 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:19:52.423 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:21:21.241 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:21:25.668 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:21:26.153 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:21:26.155 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:21:26.192 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:22:06.085 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:22:12.746 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:22:13.362 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:22:13.364 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:22:13.464 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:22:48.008 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:22:53.772 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:22:54.286 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:22:54.288 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:22:54.327 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:23:15.527 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:23:23.242 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:23:23.852 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:23:23.854 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:23:23.888 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:24:11.440 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:24:17.479 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:24:17.998 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:24:18.003 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:24:18.041 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 09:25:21.979 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 09:25:27.495 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 09:25:27.871 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 09:25:27.873 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 09:25:27.910 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:18:08.140 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 10:18:12.489 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 10:18:12.835 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 10:18:12.839 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 10:18:12.893 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:21:51.448 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:21:55.876 -05:00 [ERR] ERROR handling message: Status(StatusCode=Cancelled, Detail="No message returned from method.") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Cancelled, Detail="No message returned from method.")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 42
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 170
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:21:56.717 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:22:00.875 -05:00 [ERR] ERROR handling message: Status(StatusCode=Cancelled, Detail="No message returned from method.") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Cancelled, Detail="No message returned from method.")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 42
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 170
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:22:05.865 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:22:27.760 -05:00 [ERR] ERROR handling message: Status(StatusCode=Cancelled, Detail="No message returned from method.") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Cancelled, Detail="No message returned from method.")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 42
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 170
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:24:30.168 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 10:24:34.110 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 10:24:34.650 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 10:24:34.713 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 10:24:34.755 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:24:40.765 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:25:22.815 -05:00 [ERR] ERROR handling message: Status(StatusCode=Cancelled, Detail="No message returned from method.") - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Grpc.Core.RpcException: Status(StatusCode=Cancelled, Detail="No message returned from method.")
+   at Grpc.Net.Client.Internal.HttpClientCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.<BlockingUnaryCall>b__3_0[TRequest,TResponse](TRequest req, ClientInterceptorContext`2 ctx)
+   at Grpc.Core.ClientBase.ClientBaseConfiguration.ClientBaseConfigurationInterceptor.BlockingUnaryCall[TRequest,TResponse](TRequest request, ClientInterceptorContext`2 context, BlockingUnaryCallContinuation`2 continuation)
+   at Grpc.Core.Interceptors.InterceptingCallInvoker.BlockingUnaryCall[TRequest,TResponse](Method`2 method, String host, CallOptions options, TRequest request)
+   at ClientService.API.Grpc.ClientApiRetrieval.ClientApiRetrievalClient.FindModulesByClientIdAndFacilityId(ModuleFacilityIdRequest request, CallOptions options) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\obj\Release\netcoreapp3.1\ClientServiceGrpc.cs:line 84
+   at QAService.Grpc.ClientGRPCClientService.ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\Grpc\ClientGRPCClientService.cs:line 42
+   at QAService.IntegrationEvents.EventHandling.RegistrationReceivedIntegrationEventHandler.Handle(RegistrationReceivedIntegrationEvent event) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\QAService\QAService.API\IntegrationEvents\EventHandling\RegistrationReceivedIntegrationEventHandler.cs:line 44
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.ProcessEvent(String eventName, String message) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 170
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 143
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:25:25.187 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:27:52.168 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 10:27:56.529 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 10:27:57.206 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 10:27:57.210 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 10:27:57.263 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:28:00.464 -05:00 [INF] ----- Handling integration event: "91e4ded8-1199-482a-929c-c05b1ab7dad3" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"9040b1a1-9792-4466-a3a9-d95f038202a7","ClientName":"Texas Baptist","Id":"91e4ded8-1199-482a-929c-c05b1ab7dad3","CreationDate":"2020-05-22T15:21:52.9452686Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:47:23.610 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 10:47:28.042 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 10:47:28.383 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 10:47:28.386 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 10:47:28.454 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:49:29.293 -05:00 [INF] Starting web host (QAService.API)...
+2020-05-22 10:49:32.896 -05:00 [WRN] The messaging entity $Default Could not be found.
+2020-05-22 10:49:33.185 -05:00 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-22 10:49:33.186 -05:00 [INF] Subscribing to event RegistrationReceived with RegistrationReceivedIntegrationEventHandler
+2020-05-22 10:49:33.220 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-22 10:50:17.420 -05:00 [INF] ----- Handling integration event: "ef7048a0-3513-41ca-9bff-dab1d9ec7f96" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"6ba78372-92e3-43b5-b782-63ad5c2737eb","ClientName":"Texas Baptist","Id":"ef7048a0-3513-41ca-9bff-dab1d9ec7f96","CreationDate":"2020-05-22T15:50:02.6418270Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:50:53.912 -05:00 [INF] -----Sending command: RunRegistrationRulesCommand
+2020-05-22 10:50:54.861 -05:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Remove the 'AddEntityFramework*' call as in most cases it's not needed and might cause conflicts with other products and services registered in the same service provider.
+2020-05-22 10:50:55.383 -05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development.
+2020-05-22 10:51:38.261 -05:00 [INF] ----- Handling integration event: "ef7048a0-3513-41ca-9bff-dab1d9ec7f96" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"6ba78372-92e3-43b5-b782-63ad5c2737eb","ClientName":"Texas Baptist","Id":"ef7048a0-3513-41ca-9bff-dab1d9ec7f96","CreationDate":"2020-05-22T15:50:02.6418270Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:52:14.395 -05:00 [INF] -----Sending command: RunRegistrationRulesCommand
+2020-05-22 10:52:33.818 -05:00 [ERR] ERROR handling message: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:f5ef9f49-4c2d-4ad6-977b-8fa44f1256ad, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:54:15 - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.MessageLockLostException: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:f5ef9f49-4c2d-4ad6-977b-8fa44f1256ad, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:54:15
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.DisposeMessagesAsync(IEnumerable`1 lockTokens, Outcome outcome)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.CompleteAsync(IEnumerable`1 lockTokens)
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 145
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:53:11.894 -05:00 [INF] ----- Handling integration event: "ef7048a0-3513-41ca-9bff-dab1d9ec7f96" at QAService.API - ({"ClientId":1,"FacilityId":1,"PatientId":12,"PatientVisitId":15,"DocumentId":"6ba78372-92e3-43b5-b782-63ad5c2737eb","ClientName":"Texas Baptist","Id":"ef7048a0-3513-41ca-9bff-dab1d9ec7f96","CreationDate":"2020-05-22T15:50:02.6418270Z","$type":"RegistrationReceivedIntegrationEvent"})
+2020-05-22 10:53:38.813 -05:00 [INF] -----Sending command: RunRegistrationRulesCommand
+2020-05-22 10:54:11.163 -05:00 [ERR] ERROR handling message: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:c0805ba2-a1cf-41d8-b382-9d9f9140c1ad, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:50 - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.MessageLockLostException: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:c0805ba2-a1cf-41d8-b382-9d9f9140c1ad, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:50
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.DisposeMessagesAsync(IEnumerable`1 lockTokens, Outcome outcome)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.CompleteAsync(IEnumerable`1 lockTokens)
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 145
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
+2020-05-22 10:54:11.537 -05:00 [ERR] ERROR handling message: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:388aa5f4-7b27-4279-a71f-1691be1315f6, TrackingId:33758f4f-15cf-4cda-81c5-dd9fa7b5c790_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:50 - Context: {"Action":"RenewLock","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.MessageLockLostException: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:388aa5f4-7b27-4279-a71f-1691be1315f6, TrackingId:33758f4f-15cf-4cda-81c5-dd9fa7b5c790_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:50
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnRenewLockAsync(String lockToken)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass74_0.<<RenewLockAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.RenewLockAsync(String lockToken)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.RenewLockAsync(Message message)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.RenewMessageLockTask(Message message, CancellationToken renewLockCancellationToken)
+2020-05-22 10:54:11.926 -05:00 [ERR] ERROR handling message: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:e2dd64f4-cf33-473d-b78a-ef95d701ffc5, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:53 - Context: {"Action":"UserCallback","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/QATempService","ClientId":"MessageReceiver3registration/Subscriptions/QATempService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.MessageLockLostException: The lock supplied is invalid. Either the lock expired, or the message has already been removed from the queue. Reference:e2dd64f4-cf33-473d-b78a-ef95d701ffc5, TrackingId:34fe11df0042001f0090d4975ec7f4f2_G57_B17, SystemTracker:ipasservicebus:Topic:registration|qatempservice, Timestamp:2020-05-22T15:55:53
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.DisposeMessagesAsync(IEnumerable`1 lockTokens, Outcome outcome)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.CompleteAsync(IEnumerable`1 lockTokens)
+   at iPas.Infrastructure.EventBusServiceBus.EventBusServiceBus.<RegisterSubscriptionClientMessageHandler>b__14_0(Message message, CancellationToken token) in C:\Users\dreck\source\repos\SimpleQAService\SimpleQAService\iPas.Infrastructure.EventBusServiceBus\EventBusServiceBus.cs:line 145
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.MessageDispatchTask(Message message)
